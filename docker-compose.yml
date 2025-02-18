@@ -4,7 +4,7 @@ services:
     container_name: discord_bot_dashboard
     build: .
     ports:
-      - 8080:2278
+      - 2278:2278
     volumes:
       - ./bots:/src/bots
       - ./database:/src/database
